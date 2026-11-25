@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="light dark">
+<meta name="color-scheme" content="dark">
 <link rel="icon" href="data:,">
 <title>名古屋のフードフォトグラファー｜syukoc公式サイト</title>
 <meta name="description" content="名古屋を拠点に、飲食店・和菓子店・食品ブランドの世界観を伝える料理写真を撮影しています。光と影で食の美しさを残すフードフォトグラファー syukoc の公式サイト。">
 <link rel="canonical" href="https://www.syukoc.net/">
 <meta name="google-site-verification" content="us7a9GE7_CIHOHsXaf1vhZFBxDh8U48A8EWt_XyC5-M">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Zen+Old+Mincho:wght@400;700;900&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/museum.css">
 </head>
 <body>
 <header class="header" id="header">
-  <a class="logo" href="index.html">syukoc<small>BI-LUME — FOOD PHOTOGRAPHY, NAGOYA</small></a>
+  <a class="logo" href="index.html">syukoc<span class="dot">.foodphoto</span><small>BI-LUME — FOOD PHOTOGRAPHY, NAGOYA</small></a>
   <nav class="nav" aria-label="メインメニュー">
     <a href="collections/">作品</a><a href="philosophy/">想い</a><a href="services/">料金</a><a href="who-is-syukoc/">プロフィール</a><a href="読み物/">読み物</a>
     <a class="cta" href="contact/">ご相談</a>
@@ -22,23 +22,23 @@
 </header>
 <main>
 
-  <section class="hero" aria-label="トップ">
-    <img class="hero-img" src="assets/img/hero.jpg" alt="暗い光の中、木のテーブルに置かれたパン・オ・ショコラと器のある静かな食卓">
-    <div class="hero-inner">
-      <div class="hero-eyebrow">Food Photographer — Nagoya, Japan</div>
-      <h1><span>光と影が</span><span>語る一皿</span></h1>
-      <p class="hero-sub">名古屋のフードフォトグラファー syukoc<br>食の美しさを、光と影を纏わせたアートな一枚に</p>
-      <div class="hero-actions">
-        <a class="btn btn-gold" href="#works">作品を見る</a>
-        <a class="btn btn-ghost" href="contact/">撮影のご相談</a>
-      </div>
-      <div class="hero-meta">
-        <span><b>100</b> works on 1X.com</span>
-        <span>国際写真賞 受賞多数</span>
-        <span>全国への出張・リモート撮影対応</span>
-      </div>
+  <section class="entrance" aria-label="入口">
+    <div class="exhibit-tag">Food Photography — Nagoya, Japan</div>
+    <h1 class="brand">syukoc<span class="dot">.foodphoto</span></h1>
+    <div class="brand-rule"></div>
+    <h2 class="museum-name">光の美術館<small>Museum of Light</small></h2>
+    <p class="identity-line">フードフォトグラファー syukoc｜名古屋 — 食品・料理撮影のご依頼を承ります</p>
+
+    <div class="today">
+      <div class="today-tag">本日の一作</div>
+      <div class="frame"><img src="assets/img/quiet-table.jpg" alt="暗い光の中、木のテーブルにパンと器を置いた静かな食卓"></div>
+      <div class="plate"><span class="t">The Quiet Table</span><span class="s">静かな食卓 — 1X 掲載作品</span></div>
     </div>
-    <div class="scroll-hint">SCROLL —</div>
+
+    <div class="entrance-actions">
+      <a class="btn btn-gold" href="#rooms">展示室へ</a>
+      <a class="btn btn-ghost" href="services/">料金を見る</a>
+    </div>
   </section>
 
   <div class="wrap">
@@ -56,51 +56,78 @@
         </ul>
       </div>
     </section>
+  </div>
 
-    <section class="section" id="works">
-      <div class="works-head">
-        <div>
-          <div class="label">Selected Works</div>
-          <h2 class="h2">作品</h2>
-          <p class="lead" style="margin:0">静謐な静物から、動きのある浮遊表現まで<br>写真を大きく、言葉は少なく</p>
-        </div>
-        <div class="filters" role="group" aria-label="作品の絞り込み">
-          <button class="chip" data-filter="all" aria-pressed="true">すべて</button>
-          <button class="chip" data-filter="still" aria-pressed="false">静物</button>
-          <button class="chip" data-filter="float" aria-pressed="false">浮遊・動き</button>
-          <button class="chip" data-filter="sweet" aria-pressed="false">スイーツ</button>
-        </div>
+  <div class="wrap" id="rooms">
+
+    <section class="room" aria-label="第一室 静けさの間">
+      <div class="room-head">
+        <div class="no">Room I</div>
+        <h2>静けさの間</h2>
+        <p>一筋の光の中で、素材の質感と佇まいを残す静物</p>
       </div>
-
-      <div class="works-grid">
-        <figure class="card" data-cat="still" tabindex="0" role="button" aria-label="The Quiet Table を拡大">
-          <img src="assets/img/quiet-table.jpg" alt="暗い光の中、木のテーブルにパンと器を置いた静かな食卓">
-          <figcaption><div class="cat">Still Life</div><div class="title">静かな食卓</div><div class="en-name">The Quiet Table — 1X 掲載作品</div></figcaption>
+      <div class="hang">
+        <figure class="work">
+          <div class="frame"><img src="assets/img/braided.jpg" alt="編み目の焼き色が際立つパンを、光と影の中で近くから捉えた静物"></div>
+          <div class="plate"><span class="t">Braided Crust in Shadow</span><span class="s">影に編まれた crust</span></div>
         </figure>
-        <figure class="card" data-cat="float sweet" tabindex="0" role="button" aria-label="Floating Madeleine を拡大">
-          <img src="assets/img/madeleine.jpg" alt="一筋の光の中で浮遊するマドレーヌ">
-          <figcaption><div class="cat">Levitation</div><div class="title">浮かぶマドレーヌ</div><div class="en-name">Floating Madeleine</div></figcaption>
+        <figure class="work">
+          <div class="frame"><img src="assets/img/cocoa.jpg" alt="ココアパウダーを纏った生チョコを真上から捉えた写真"></div>
+          <div class="plate"><span class="t">Cocoa Dust</span><span class="s">ココアを纏う生チョコ</span></div>
         </figure>
-        <figure class="card" data-cat="sweet" tabindex="0" role="button" aria-label="シャインマスカットのショートケーキを拡大">
-          <img src="assets/img/muscat.jpg" alt="シャインマスカットをのせたショートケーキと、後ろにぶどうとグラス">
-          <figcaption><div class="cat">Cake</div><div class="title">シャインマスカットのショートケーキ</div><div class="en-name">Shine Muscat Short Cake</div></figcaption>
-        </figure>
-        <figure class="card" data-cat="still" tabindex="0" role="button" aria-label="Braided Crust in Shadow を拡大">
-          <img src="assets/img/braided.jpg" alt="編み目の焼き色が際立つパンを、光と影の中で近くから捉えた静物">
-          <figcaption><div class="cat">Bread</div><div class="title">影に編まれた crust</div><div class="en-name">Braided Crust in Shadow</div></figcaption>
-        </figure>
-        <figure class="card" data-cat="still sweet" tabindex="0" role="button" aria-label="Cocoa Dust を拡大">
-          <img src="assets/img/cocoa.jpg" alt="ココアパウダーを纏った生チョコを真上から捉えた写真">
-          <figcaption><div class="cat">Chocolate</div><div class="title">ココアを纏う生チョコ</div><div class="en-name">Cocoa Dust</div></figcaption>
+        <figure class="work">
+          <div class="frame"><img src="assets/img/09-mandarin-still-life.jpg" alt="柑橘を題材にした静物"></div>
+          <div class="plate"><span class="t">柑橘の静物</span><span class="s">Mandarin Still Life</span></div>
         </figure>
       </div>
-
-      <div class="works-note">
-        <a class="link-arrow" href="https://photo.syukoc.net" target="_blank" rel="noopener">すべての作品はポートフォリオへ →</a>
-      </div>
+      <div class="room-link"><a class="link-arrow" href="the-alchemy-of-light/">この展示室の作品へ →</a></div>
     </section>
 
-    <hr class="divider">
+    <section class="room" aria-label="第二室 浮遊の間">
+      <div class="room-head">
+        <div class="no">Room II</div>
+        <h2>浮遊の間</h2>
+        <p>浮かぶ、舞う、弾ける — 編集・合成を伴う表現</p>
+      </div>
+      <div class="hang">
+        <figure class="work">
+          <div class="frame"><img src="assets/img/madeleine.jpg" alt="一筋の光の中で浮遊するマドレーヌ"></div>
+          <div class="plate"><span class="t">Floating Madeleine</span><span class="s">浮かぶマドレーヌ</span></div>
+        </figure>
+        <figure class="work">
+          <div class="frame"><img src="assets/img/strawberry-splash.jpg" alt="水しぶきとともに弾ける苺"></div>
+          <div class="plate"><span class="t">Strawberry Splash</span><span class="s">弾ける苺</span></div>
+        </figure>
+        <figure class="work">
+          <div class="frame"><img src="assets/img/floating-choux.jpg" alt="窓辺の光の中で浮かぶシュークリームと、舞う粉砂糖"></div>
+          <div class="plate"><span class="t">Floating Choux</span><span class="s">宙に浮かぶシューと、舞う粉砂糖</span></div>
+        </figure>
+      </div>
+      <div class="room-link"><a class="link-arrow" href="gravity-defied/">この展示室の作品へ →</a></div>
+    </section>
+
+    <section class="room" aria-label="第三室 余韻の間">
+      <div class="room-head">
+        <div class="no">Room III</div>
+        <h2>余韻の間</h2>
+        <p>焼き色と層の美しさが、静かに残る一枚</p>
+      </div>
+      <div class="hang">
+        <figure class="work">
+          <div class="frame"><img src="assets/img/souffle.jpg" alt="スフレチーズケーキ"></div>
+          <div class="plate"><span class="t">スフレチーズケーキ</span><span class="s">Soufflé Cheesecake</span></div>
+        </figure>
+        <figure class="work">
+          <div class="frame"><img src="assets/img/basque.jpg" alt="窓辺の光で撮ったバスクチーズケーキ"></div>
+          <div class="plate"><span class="t">バスクチーズケーキ</span><span class="s">Basque Cheesecake</span></div>
+        </figure>
+        <figure class="work">
+          <div class="frame"><img src="assets/img/03-artisan-sourdough.jpg" alt="職人のサワードウブレッド"></div>
+          <div class="plate"><span class="t">サワードウ</span><span class="s">Artisan Sourdough</span></div>
+        </figure>
+      </div>
+      <div class="room-link"><a class="link-arrow" href="culinary-narratives/">この展示室の作品へ →</a></div>
+    </section>
 
     <section class="section" id="philosophy">
       <div class="philosophy">
@@ -133,6 +160,13 @@
       <div class="label">Price</div>
       <h2 class="h2">料金</h2>
       <p class="lead">時間ではなく、アイテム数と内容で決まります</p>
+
+      <div class="audience-grid" aria-label="対象となるお客様">
+        <article class="use"><p>世界観を大切にしたい飲食店</p></article>
+        <article class="use"><p>価格競争から抜けたいお店</p></article>
+        <article class="use"><p>海外や観光客に発信したい方</p></article>
+        <article class="use"><p>ブランドとして料理を育てたい方</p></article>
+      </div>
 
       <div class="price-layout">
         <div class="price-main">
@@ -226,21 +260,14 @@
     </section>
   </div>
 
-  <div class="dialog" id="lightbox" role="dialog" aria-modal="true" aria-label="作品の拡大表示">
-    <button class="close" id="closeBtn" aria-label="閉じる">×</button>
-    <figure>
-      <img id="lbImg" src="assets/img/quiet-table.jpg" alt="拡大表示中の作品">
-      <figcaption id="lbCap"></figcaption>
-    </figure>
-  </div>
-
 </main>
+<a class="consult-fixed" href="https://lin.ee/RTCfIxx" target="_blank" rel="noopener">撮影のご相談</a>
 <footer>
   <div class="f-logo">syukoc</div>
   <div>Syukoc | BI-LUME / Culinary Visual Artist — Nagoya, Japan</div>
   <nav aria-label="フッターメニュー"><a href="">トップ</a><a href="collections/">作品</a><a href="philosophy/">想い</a><a href="services/">料金</a><a href="who-is-syukoc/">プロフィール</a><a href="読み物/">読み物</a><a href="contact/">お問い合わせ</a></nav>
   <div><a href="https://www.syukoc.net" style="padding:10px">syukoc.net</a> ・ <a href="https://photo.syukoc.net" target="_blank" rel="noopener" style="padding:10px">photo.syukoc.net</a></div>
 </footer>
-<script src="assets/main.js"></script>
+<script src="assets/museum.js"></script>
 </body>
 </html>
