@@ -10,6 +10,7 @@
   --line:#2e2820;
   --line-brass:rgba(200,163,101,.38);
   --brand-red:#e03a2f;
+  --brand-red-deep:#a8231b;
   --gold:#c8a365;
   --gold-2:#e0bc7a;
   --dark:#0d0b09;
@@ -33,7 +34,8 @@ button,[role="button"]{min-height:44px}
 .nav{display:flex;gap:6px;align-items:center}
 .nav a{text-decoration:none;font-size:13px;letter-spacing:.14em;padding:10px 12px;min-height:44px;display:inline-flex;align-items:center}
 .nav a:hover{color:var(--gold-2)}
-.nav .cta{border:1px solid var(--line-brass);border-radius:999px;padding:10px 16px;margin-left:6px;white-space:nowrap;flex-shrink:0;color:var(--gold-2)}
+.nav .cta{border:1px solid var(--brand-red);border-radius:999px;padding:10px 16px;margin-left:6px;white-space:nowrap;flex-shrink:0;color:#fff}
+.nav .cta:hover{background:var(--brand-red-deep);color:#fff}
 @media(max-width:900px){ .nav a:not(.cta){display:none} .logo{font-size:22px} }
 
 /* Buttons */
@@ -47,8 +49,8 @@ button,[role="button"]{min-height:44px}
 .btn-dark{background:var(--gold);color:#171106;border:1px solid var(--gold)}
 
 /* Fixed consult button */
-.consult-fixed{position:fixed;right:16px;bottom:16px;z-index:60;display:inline-flex;align-items:center;gap:8px;background:rgba(16,13,10,.88);backdrop-filter:blur(8px);border:1px solid var(--line-brass);color:var(--gold-2);border-radius:999px;padding:11px 18px;font-size:13.5px;letter-spacing:.08em;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.5)}
-.consult-fixed:hover{border-color:var(--gold-2)}
+.consult-fixed{position:fixed;right:16px;bottom:16px;z-index:60;display:inline-flex;align-items:center;gap:8px;background:var(--brand-red-deep);backdrop-filter:blur(8px);border:1px solid #c03a2e;color:#fff;border-radius:999px;padding:11px 18px;font-size:13.5px;letter-spacing:.08em;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+.consult-fixed:hover{background:#bc2f24}
 
 /* Hero (legacy, kept for safety) */
 .hero{position:relative;min-height:100svh;background:#0f0c09;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
@@ -258,10 +260,10 @@ footer nav a:hover{color:var(--gold-2)}
 
 /* ============ Museum top page ============ */
 .entrance{min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:130px 22px 70px;position:relative;background:radial-gradient(ellipse 90% 55% at 50% 0%, #1c1712 0%, var(--bg) 62%)}
-.entrance .exhibit-tag{font-family:"Cormorant Garamond",serif;letter-spacing:.34em;font-size:11px;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
+.entrance .exhibit-tag{font-family:"Cormorant Garamond",serif;letter-spacing:.34em;font-size:11px;text-transform:uppercase;color:var(--brand-red);margin-bottom:20px}
 .brand{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:clamp(30px,5vw,58px);letter-spacing:.1em;line-height:1.05;white-space:nowrap;margin:0}
 .brand .food{color:var(--brand-red)}
-.brand-rule{width:min(420px,70vw);height:1px;background:linear-gradient(to right, transparent, var(--line-brass), transparent);margin:26px auto 20px}
+.brand-rule{width:min(420px,70vw);height:1px;background:linear-gradient(to right, transparent, rgba(224,58,47,.55), transparent);margin:26px auto 20px}
 .museum-name{font-family:"Zen Old Mincho",serif;font-weight:700;font-size:clamp(24px,4.2vw,44px);letter-spacing:.22em;margin:0}
 .museum-name small{display:block;font-family:"Cormorant Garamond",serif;font-weight:400;letter-spacing:.4em;font-size:11px;color:var(--muted);margin-top:10px;text-transform:uppercase}
 .identity-line{margin-top:22px;font-size:14px;letter-spacing:.1em;color:var(--ink-2)}
@@ -273,7 +275,7 @@ footer nav a:hover{color:var(--gold-2)}
 .plate{display:inline-block;margin-top:16px;border:1px solid var(--line-brass);background:var(--surface);padding:10px 22px;border-radius:2px}
 .plate .t{font-family:"Zen Old Mincho",serif;font-size:16px;letter-spacing:.06em}
 .plate .s{display:block;font-size:12px;color:var(--muted);letter-spacing:.08em;margin-top:2px}
-.today-tag{font-size:12px;letter-spacing:.3em;color:var(--gold);margin-bottom:14px}
+.today-tag{font-size:12px;letter-spacing:.3em;color:var(--brand-red);margin-bottom:14px}
 .entrance-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:36px}
 
 .room{padding:84px 0 8px}
