@@ -9,6 +9,7 @@
   --muted:#9a8d7a;
   --line:#2e2820;
   --line-brass:rgba(200,163,101,.38);
+  --brand-red:#e03a2f;
   --gold:#c8a365;
   --gold-2:#e0bc7a;
   --dark:#0d0b09;
@@ -27,7 +28,7 @@ button,[role="button"]{min-height:44px}
 .header{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;padding:14px 22px;background:rgba(10,8,6,.82);backdrop-filter:blur(14px);color:var(--ink);box-shadow:0 1px 0 var(--line);transition:padding .35s}
 .header.scrolled,.header.solid{padding:10px 22px}
 .logo{font-family:"Cormorant Garamond",serif;font-size:26px;letter-spacing:.14em;font-weight:600;line-height:1;text-decoration:none;color:var(--ink)}
-.logo .dot{color:var(--gold-2);font-style:italic}
+.logo .food{color:var(--brand-red)}
 .logo small{display:block;font-family:"Zen Old Mincho",serif;font-size:9px;letter-spacing:.28em;font-weight:400;margin-top:4px;color:var(--muted)}
 .nav{display:flex;gap:6px;align-items:center}
 .nav a{text-decoration:none;font-size:13px;letter-spacing:.14em;padding:10px 12px;min-height:44px;display:inline-flex;align-items:center}
@@ -259,7 +260,7 @@ footer nav a:hover{color:var(--gold-2)}
 .entrance{min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:130px 22px 70px;position:relative;background:radial-gradient(ellipse 90% 55% at 50% 0%, #1c1712 0%, var(--bg) 62%)}
 .entrance .exhibit-tag{font-family:"Cormorant Garamond",serif;letter-spacing:.34em;font-size:11px;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
 .brand{font-family:"Cormorant Garamond",serif;font-weight:600;font-size:clamp(30px,5vw,58px);letter-spacing:.1em;line-height:1.05;white-space:nowrap;margin:0}
-.brand .dot{color:var(--gold-2);font-style:italic}
+.brand .food{color:var(--brand-red)}
 .brand-rule{width:min(420px,70vw);height:1px;background:linear-gradient(to right, transparent, var(--line-brass), transparent);margin:26px auto 20px}
 .museum-name{font-family:"Zen Old Mincho",serif;font-weight:700;font-size:clamp(24px,4.2vw,44px);letter-spacing:.22em;margin:0}
 .museum-name small{display:block;font-family:"Cormorant Garamond",serif;font-weight:400;letter-spacing:.4em;font-size:11px;color:var(--muted);margin-top:10px;text-transform:uppercase}
